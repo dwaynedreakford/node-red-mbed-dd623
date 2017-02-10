@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-red-mbed-dd623
+  host: node-red-mbed-dd623
+  disk_quota: 1024M
+  services:
+  - IoT-Platform-mbed-dd623
+  - node-red-mbed-dd623-cloudantNoSQLDB
